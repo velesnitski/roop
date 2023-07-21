@@ -27,7 +27,7 @@ options:
 
 For now recommendation is to use: 'python run.py' without gpu options since the code not commited yet.
 
-## Fixes and Recommendations for M1 Macs (May 2023)
+## Fixes and Recommendations for M1+(ARM) Macs (May 2023)
 Python 3.10
 
 openssl@1.1
