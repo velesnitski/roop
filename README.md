@@ -5,7 +5,8 @@ https://github.com/s0md3v/roop
 > Note: The instructions may or may not work for you. Use google or look through issues people have created here to solve your problems.
 
 Typical install: 'pip install -r requirements.txt'
-Other option for parent version:
+
+Other options for parent version:
 please check original install instructions on parent repository: https://github.com/s0md3v/roop/wiki/1.-Installation
 
 Download [this file](https://drive.google.com/file/d/1jbDUGrADco9A1MutWjO6d_1dwizh9w9P/view?usp=sharing) and keep it in **roop** directory. [Mirror #1](https://drive.google.com/file/d/1eu60OrRtn4WhKrzM4mQv4F3rIuyUXqfl/view?usp=drive_link), [Mirror #2](https://1drv.ms/u/s!AsHA3Xbnj6uAgxhb_tmQ7egHACOR?e=CPoThO)
