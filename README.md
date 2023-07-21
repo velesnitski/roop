@@ -6,6 +6,8 @@ https://github.com/s0md3v/roop
 
 Please check original install instructions on parent repository: https://github.com/s0md3v/roop
 
+Download [this file](https://drive.google.com/file/d/1jbDUGrADco9A1MutWjO6d_1dwizh9w9P/view?usp=sharing) and keep it in **roop** directory. [Mirror #1](https://drive.google.com/file/d/1eu60OrRtn4WhKrzM4mQv4F3rIuyUXqfl/view?usp=drive_link), [Mirror #2](https://1drv.ms/u/s!AsHA3Xbnj6uAgxhb_tmQ7egHACOR?e=CPoThO)
+
 
 ## How do I use it?
 > Note: When you run this program for the first time, it will download some models ~300MB in size.
