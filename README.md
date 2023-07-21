@@ -30,4 +30,6 @@ For now recommendation is to use: 'python run.py' without gpu options since the 
 ## Fixes and Recommendations for M1+(ARM) Macs (May 2023)
 Python 3.10
 
+python-tk@3.10
+
 openssl@1.1
