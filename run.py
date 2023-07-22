@@ -65,23 +65,23 @@ def pre_check():
     model_path = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'inswapper_128.onnx')
     if not os.path.isfile(model_path):
         quit('File "inswapper_128.onnx" does not exist!')
-    if '--gpu' in sys.argv:
-        CUDA_VERSION = torch.version.cuda
-        CUDNN_VERSION = torch.backends.cudnn.version()
-        NVIDIA_PROVIDERS = ['CUDAExecutionProvider', 'TensorrtExecutionProvider']
-        if len(list(set(core.globals.providers) - set(NVIDIA_PROVIDERS))) > 1:
-            if not torch.cuda.is_available() or not CUDA_VERSION:
-                quit("You are using --gpu flag but CUDA isn't available or properly installed on your system.")
-            if CUDA_VERSION > '11.8':
-                quit(f"CUDA version {CUDA_VERSION} is not supported - please downgrade to 11.8")
-            if CUDA_VERSION < '11.4':
-                quit(f"CUDA version {CUDA_VERSION} is not supported - please upgrade to 11.8")
-            if CUDNN_VERSION < 8220:
-                quit(f"CUDNN version {CUDNN_VERSION} is not supported - please upgrade to 8.9.1")
-            if CUDNN_VERSION > 8910:
-                quit(f"CUDNN version {CUDNN_VERSION} is not supported - please downgrade to 8.9.1")
-    else:
-        core.globals.providers = ['CPUExecutionProvider']
+    # if '--gpu' in sys.argv:
+    #    CUDA_VERSION = torch.version.cuda
+    #    CUDNN_VERSION = torch.backends.cudnn.version()
+    #    NVIDIA_PROVIDERS = ['CUDAExecutionProvider', 'TensorrtExecutionProvider']
+        # if len(list(set(core.globals.providers) - set(NVIDIA_PROVIDERS))) > 1:
+        #    if not torch.cuda.is_available() or not CUDA_VERSION:
+        #        quit("You are using --gpu flag but CUDA isn't available or properly installed on your system.")
+        #    if CUDA_VERSION > '11.8':
+        #        quit(f"CUDA version {CUDA_VERSION} is not supported - please downgrade to 11.8")
+        #    if CUDA_VERSION < '11.4':
+        #        quit(f"CUDA version {CUDA_VERSION} is not supported - please upgrade to 11.8")
+        #   if CUDNN_VERSION < 8220:
+        #       quit(f"CUDNN version {CUDNN_VERSION} is not supported - please upgrade to 8.9.1")
+        #    if CUDNN_VERSION > 8910:
+        #        quit(f"CUDNN version {CUDNN_VERSION} is not supported - please downgrade to 8.9.1")
+    #else:
+        # core.globals.providers = ['CPUExecutionProvider']
 
 
 def start_processing():
