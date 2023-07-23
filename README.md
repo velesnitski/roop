@@ -35,4 +35,6 @@ Python 3.10
 
 python-tk@3.10
 
+pip install 'urllib3<2.0'
+
 openssl@1.1
