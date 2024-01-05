@@ -1,7 +1,8 @@
 repo_name: velesnitski/roop
 report_id: c538e2864123d4095d5d559ef6cdac0d
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-20T06:25:45+00:00'
+timestamp: '2024-01-05T08:36:52+00:00'
 requested_by: velesnitski
 provider: github
 branch: main
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/velesnitski/roop
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -25,6 +27,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/velesnitski/roop
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -34,6 +37,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/velesnitski/roop/blob/main/.github/workflows/ci.yml
   detection_source: ".github/workflows/ci.yml"
   last_updated_by: henryruhs
   last_updated_on: 2023-05-31 08:32:40.000000000 Z
@@ -45,6 +49,7 @@ tools:
   category: Assets and Media
   sub_category: Image Processing and Management
   image_url: https://img.stackshare.io/service/1293/opencv-logo-64x64.png
+  detection_source_url: https://github.com/velesnitski/roop/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Saeed
   last_updated_on: 2023-05-29 15:32:24.000000000 Z
@@ -58,7 +63,7 @@ tools:
   category: Libraries
   sub_category: Data Science Tools
   image_url: https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png
-  detection_source_url: requirements.txt
+  detection_source_url: https://github.com/velesnitski/roop/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Saeed
   last_updated_on: 2023-05-29 15:32:24.000000000 Z
@@ -71,6 +76,7 @@ tools:
   category: Application Utilities
   sub_category: Machine Learning Tools
   image_url: https://img.stackshare.io/service/4475/hpYQzO_U_400x400.png
+  detection_source_url: https://github.com/velesnitski/roop/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Somdev Sangwan
   last_updated_on: 2023-05-30 00:03:54.000000000 Z
